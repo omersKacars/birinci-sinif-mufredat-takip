@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4. Sınıf Haftalık Ders Planı (2025-2026)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>4. Sınıf Haftalık Plan (2025-2026)</h1>
+            <p class="subtitle">Detaylı ve Kazanım Odaklı Müfredat</p>
+        </header>
+
+        <nav class="navigation">
+            <button id="prev-week" class="nav-button">← Önceki Hafta</button>
+            <div class="week-info">
+                <h2 id="week-number-title"></h2>
+                <p id="week-date-range"></p>
+            </div>
+            <button id="next-week" class="nav-button">Sonraki Hafta →</button>
+        </nav>
+
+        <div class="theme-container">
+            <h3>Haftanın Teması / Özel Günler</h3>
+            <p id="week-theme"></p>
+        </div>
+
+        <main id="plan-container">
+            <!-- Ders kartları JavaScript ile buraya eklenecek -->
+        </main>
+
+        <footer>
+            <p>Bu plan taslağı, MEB müfredatına uygun olarak hazırlanmıştır.</p>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
